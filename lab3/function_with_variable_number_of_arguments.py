@@ -1,5 +1,3 @@
-import math
-
 def handler(first, *args_):
     args = list(args_) # convert from tuple to list
     maximum = args[0] # for assuming that the fist in args is the maximum
