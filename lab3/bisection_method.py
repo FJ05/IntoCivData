@@ -27,7 +27,7 @@ def bisection_method(l,r,f:float,t, coef:float):
     return (l + r) / 2.0
 
 print("Enter the values for:\nf(x) = ax³ + bx² + cx + d\nto find f(x)")
-x,a,b,c,d = float(input("Enter the value for x: ")), float(input("Enter the value for a: ")), float(input("Enter the value for b: ")), float(input("Enter the value for c: ")), float(input("Enter the value for d: ")))
+x,a,b,c,d = float(input("Enter the value for x: ")), float(input("Enter the value for a: ")), float(input("Enter the value for b: ")), float(input("Enter the value for c: ")), float(input("Enter the value for d: "))
 
 print(f"f({x}) = {f(x,a,b,c,d)}")
 l = l(a,b,c,d)
