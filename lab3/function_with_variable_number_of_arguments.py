@@ -12,9 +12,9 @@ def handler(first, *args_):
 
     average = sum(args) / len(args)
     
-    if len(args) % 2 == 1: # if the sum of arguments is odd
+    if len(args) % 2 == 1: # if the length of arguments is odd
         median = args[len(args) // 2] # this is the middle of args
-    else: # if the sum of arguments is even
+    else: # if the length of arguments is even
         index = len(args) // 2
         median = (args[index - 1] + args[index]) / 2
 
